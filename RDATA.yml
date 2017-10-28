@@ -80,3 +80,15 @@ ISDN:
 RT:
     - PREFERENCE
     - INTERMEDIATE-HOST
+
+
+# RFC1706
+# https://tools.ietf.org/html/rfc1706
+NSAP:
+    - true
+
+
+# RFC3596
+# https://tools.ietf.org/html/rfc3596
+AAAA:
+    - ADDRESS
