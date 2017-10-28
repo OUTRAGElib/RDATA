@@ -58,3 +58,25 @@ WKS:
     - ADDRESS
     - PROTOCOL
     - true
+
+
+# RFC1183
+# https://tools.ietf.org/html/rfc1183
+AFSDB:
+    - SUBTYPE
+    - HOSTNAME
+
+RP:
+    - MBOX-DNAME
+    - TXT-DNAME
+
+X25:
+    - PSDN-ADDRESS
+
+ISDN:
+    - ISDN-ADDRESS
+    - SA
+
+RT:
+    - PREFERENCE
+    - INTERMEDIATE-HOST
