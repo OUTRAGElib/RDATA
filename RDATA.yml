@@ -1,57 +1,60 @@
+# RFC1035
+# https://tools.ietf.org/html/rfc1035
 CNAME:
-	- CNAME
+    - CNAME
 
 HINFO:
-	- CPU
-	- OS
+    - CPU
+    - OS
 
 MB:
-	- MADNAME
+    - MADNAME
 
 MD:
-	- MADNAME
+    - MADNAME
 
 MF:
-	- MADNAME
+    - MADNAME
 
 MG:
-	- MGMNAME
+    - MGMNAME
 
 MINFO:
-	- RMAILBX
-	- EMAILBX
+    - RMAILBX
+    - EMAILBX
 
 MR:
-	- NEWNAME
+    - NEWNAME
 
 MX:
-	- PREFERENCE
-	- EXCHANGE
+    - PREFERENCE
+    - EXCHANGE
 
 'NULL':
+    - true
 
 NS:
-	- NSDNAME
+    - NSDNAME
 
 PTR:
-	- PTRDNAME
+    - PTRDNAME
 
 SOA:
-	- MNAME
-	- RNAME
-	- SERIAL
-	- REFRESH
-	- RETRY
-	- EXPIRE
-	- MINIMUM
+    - MNAME
+    - RNAME
+    - SERIAL
+    - REFRESH
+    - RETRY
+    - EXPIRE
+    - MINIMUM
 
 TXT:
-	- TXT-DATA
+    - TXT-DATA
 
 A:
-	- ADDRESS
+    - ADDRESS
 
 WKS:
-	- ADDRESS
-	- PROTOCOL
-	- <BIT MAP>
+    - ADDRESS
+    - PROTOCOL
+    - true
