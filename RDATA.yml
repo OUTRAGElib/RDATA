@@ -1,0 +1,57 @@
+CNAME:
+	- CNAME
+
+HINFO:
+	- CPU
+	- OS
+
+MB:
+	- MADNAME
+
+MD:
+	- MADNAME
+
+MF:
+	- MADNAME
+
+MG:
+	- MGMNAME
+
+MINFO:
+	- RMAILBX
+	- EMAILBX
+
+MR:
+	- NEWNAME
+
+MX:
+	- PREFERENCE
+	- EXCHANGE
+
+'NULL':
+
+NS:
+	- NSDNAME
+
+PTR:
+	- PTRDNAME
+
+SOA:
+	- MNAME
+	- RNAME
+	- SERIAL
+	- REFRESH
+	- RETRY
+	- EXPIRE
+	- MINIMUM
+
+TXT:
+	- TXT-DATA
+
+A:
+	- ADDRESS
+
+WKS:
+	- ADDRESS
+	- PROTOCOL
+	- <BIT MAP>
