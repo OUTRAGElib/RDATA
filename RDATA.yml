@@ -106,3 +106,12 @@ TSIG:
     - ERROR
     - OTHER-LEN
     - OTHER-DATA
+
+
+# RFC2782
+# https://tools.ietf.org/html/rfc2782
+SRV:
+    - PRIORITY
+    - WEIGHT
+    - PORT
+    - TARGET
