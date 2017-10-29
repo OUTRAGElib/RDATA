@@ -92,3 +92,17 @@ NSAP:
 # https://tools.ietf.org/html/rfc3596
 AAAA:
     - ADDRESS
+
+
+# RFC2845
+# https://tools.ietf.org/html/rfc2845
+TSIG:
+    - ALGORITHM-NAME
+    - TIME-SIGNED
+    - FUDGE
+    - MAC-SIZE
+    - MAC
+    - ORIGINAL-ID
+    - ERROR
+    - OTHER-LEN
+    - OTHER-DATA
